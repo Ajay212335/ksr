@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0077b6;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .menu-btn {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: #00b4d8;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-btn:hover {
+    background-color: #0096c7;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #0077b6;
+    margin: 1.5rem 0;
+  }
+  
+  table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  thead {
+    background-color: #0077b6;
+    color: white;
+  }
+  
+  thead th {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody td {
+    padding: 0.8rem;
+    text-align: left;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #0077b6;
+  }

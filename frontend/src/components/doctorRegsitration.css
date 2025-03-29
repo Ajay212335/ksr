@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .registration-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .registration-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .registration-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .registration-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .otp-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .otp-btn:hover {
+    background-color: #005f8a;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .submit-btn:hover {
+    background-color: #005f8a;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  /* Background Section */
+  .background-section {
+    height: 300px; /* Adjust the height as needed */
+    background-image: url('https://media.istockphoto.com/id/1689003176/photo/medical-technology-doctor-holding-health-icon-with-dna-electronic-medical-record-digital.jpg?b=1&s=612x612&w=0&k=20&c=jQUpbeWCCxdmOCHeAnPwjXmEAoogokaJNikfB6qooD4='); /* Image URL */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin-top: 2rem; /* Adds spacing above the section */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+  }
