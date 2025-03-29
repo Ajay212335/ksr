@@ -1,0 +1,1481 @@
+{
+  "diseases": [
+    {
+      "name": "Tuberculosis (TB)",
+      "causative_agent": "Mycobacterium tuberculosis",
+      "symptoms": "Chronic cough, weight loss, night sweats, fever, fatigue.",
+      "treatment": "Long-term antibiotic therapy, isolation in active cases, supportive care.",
+      "medicine": "Isoniazid, Rifampin, Ethambutol, Pyrazinamide."
+    },
+    {
+      "name": "Pneumonia",
+      "causative_agent": "Streptococcus pneumoniae, Haemophilus influenzae, Mycoplasma pneumoniae",
+      "symptoms": "Cough with phlegm, fever, chills, difficulty breathing, chest pain.",
+      "treatment": "Antibiotic therapy, oxygen support, rest.",
+      "medicine": "Amoxicillin, Azithromycin, Levofloxacin."
+    },
+    {
+      "name": "Meningitis",
+      "causative_agent": "Neisseria meningitidis, Streptococcus pneumoniae, Haemophilus influenzae",
+      "symptoms": "Severe headache, stiff neck, fever, nausea, sensitivity to light.",
+      "treatment": "Immediate antibiotic therapy, hospitalization, corticosteroids.",
+      "medicine": "Ceftriaxone, Vancomycin, Dexamethasone."
+    },
+    {
+      "name": "Cholera",
+      "causative_agent": "Vibrio cholerae",
+      "symptoms": "Severe watery diarrhea, dehydration, vomiting, rapid heart rate.",
+      "treatment": "Oral rehydration therapy (ORT), antibiotics in severe cases.",
+      "medicine": "Doxycycline, Azithromycin, Zinc supplements."
+    },
+    {
+      "name": "Typhoid Fever",
+      "causative_agent": "Salmonella typhi",
+      "symptoms": "High fever, abdominal pain, constipation or diarrhea, weakness.",
+      "treatment": "Antibiotic therapy, fluid replacement, proper hygiene.",
+      "medicine": "Ciprofloxacin, Azithromycin, Ceftriaxone."
+    },
+    {
+      "name": "Diphtheria",
+      "causative_agent": "Corynebacterium diphtheriae",
+      "symptoms": "Thick gray coating in throat, sore throat, difficulty breathing, swollen lymph nodes.",
+      "treatment": "Diphtheria antitoxin, antibiotic therapy, vaccination.",
+      "medicine": "Erythromycin, Penicillin, Diphtheria Antitoxin."
+    },
+    {
+      "name": "Whooping Cough (Pertussis)",
+      "causative_agent": "Bordetella pertussis",
+      "symptoms": "Severe coughing fits, whooping sound during breathing, vomiting after coughing.",
+      "treatment": "Supportive care, antibiotics in early stages, vaccination.",
+      "medicine": "Azithromycin, Erythromycin, Clarithromycin."
+    },
+    {
+      "name": "Leprosy (Hansen’s Disease)",
+      "causative_agent": "Mycobacterium leprae",
+      "symptoms": "Skin lesions, nerve damage, loss of sensation, muscle weakness.",
+      "treatment": "Long-term multidrug therapy, supportive care.",
+      "medicine": "Dapsone, Rifampin, Clofazimine."
+    },
+    {
+      "name": "Plague",
+      "causative_agent": "Yersinia pestis",
+      "symptoms": "Fever, chills, swollen lymph nodes, blackened skin (in septicemic plague).",
+      "treatment": "Immediate antibiotic therapy, supportive care, isolation.",
+      "medicine": "Streptomycin, Doxycycline, Gentamicin."
+    },
+    {
+      "name": "Syphilis",
+      "causative_agent": "Treponema pallidum",
+      "symptoms": "Painless sores (chancres), rash, fever, swollen lymph nodes, neurological complications (late stage).",
+      "treatment": "Antibiotic therapy, regular follow-up testing.",
+      "medicine": "Penicillin G, Doxycycline (if allergic to penicillin)."
+    },
+    {
+      "name": "Gonorrhea",
+      "causative_agent": "Neisseria gonorrhoeae",
+      "symptoms": "Painful urination, discharge, pelvic pain, possible infertility.",
+      "treatment": "Antibiotic therapy, partner treatment, prevention methods.",
+      "medicine": "Ceftriaxone, Azithromycin."
+    },
+    {
+      "name": "Chlamydia",
+      "causative_agent": "Chlamydia trachomatis",
+      "symptoms": "Painful urination, genital discharge, pelvic pain, eye infections (in newborns).",
+      "treatment": "Antibiotic therapy, safe sexual practices, partner treatment.",
+      "medicine": "Azithromycin, Doxycycline."
+    },
+    {
+      "name": "Botulism",
+      "causative_agent": "Clostridium botulinum",
+      "symptoms": "Paralysis, blurred vision, difficulty swallowing, respiratory failure.",
+      "treatment": "Antitoxin administration, respiratory support, hospitalization.",
+      "medicine": "Botulinum Antitoxin, Mechanical ventilation (if needed)."
+    },
+    {
+      "name": "Tetanus (Lockjaw)",
+      "causative_agent": "Clostridium tetani",
+      "symptoms": "Muscle stiffness, jaw lock, difficulty swallowing, seizures.",
+      "treatment": "Tetanus immune globulin, wound care, muscle relaxants.",
+      "medicine": "Tetanus Immunoglobulin (TIG), Diazepam, Metronidazole."
+    }
+  ,
+  
+    {
+      "name": "Common Cold",
+      "causative_agent": "Rhinoviruses, Coronaviruses",
+      "symptoms": "Sneezing, runny nose, sore throat, cough, mild fever.",
+      "treatment": "Rest, hydration, symptomatic relief with over-the-counter medication.",
+      "medicine": "Paracetamol, Antihistamines, Decongestants."
+    },
+    {
+      "name": "Influenza (Flu)",
+      "causative_agent": "Influenza virus (A, B, C)",
+      "symptoms": "Fever, chills, muscle aches, cough, sore throat, fatigue.",
+      "treatment": "Antiviral medications, rest, hydration, vaccination for prevention.",
+      "medicine": "Oseltamivir (Tamiflu), Zanamivir, Acetaminophen."
+    },
+    {
+      "name": "COVID-19",
+      "causative_agent": "SARS-CoV-2",
+      "symptoms": "Fever, cough, shortness of breath, fatigue, loss of taste or smell.",
+      "treatment": "Supportive care, oxygen therapy, antiviral drugs, vaccination.",
+      "medicine": "Remdesivir, Dexamethasone, Molnupiravir."
+    },
+    {
+      "name": "Dengue Fever",
+      "causative_agent": "Dengue virus",
+      "symptoms": "High fever, severe headache, joint and muscle pain, skin rash, bleeding tendencies.",
+      "treatment": "Supportive care, hydration, pain relief.",
+      "medicine": "Paracetamol (Avoid NSAIDs like ibuprofen)."
+    },
+    {
+      "name": "Hepatitis (A, B, C, D, E)",
+      "causative_agent": "Hepatitis viruses",
+      "symptoms": "Jaundice, fatigue, nausea, abdominal pain, dark urine.",
+      "treatment": "Antiviral therapy for chronic cases, supportive care, vaccination for prevention.",
+      "medicine": "Interferon, Ribavirin, Tenofovir, Lamivudine."
+    },
+    {
+      "name": "Measles",
+      "causative_agent": "Measles virus (Morbillivirus)",
+      "symptoms": "Fever, cough, runny nose, red eyes, rash.",
+      "treatment": "Supportive care, hydration, vitamin A supplementation.",
+      "medicine": "Vitamin A, Acetaminophen for fever management."
+    },
+    {
+      "name": "Mumps",
+      "causative_agent": "Mumps virus",
+      "symptoms": "Swollen salivary glands, fever, headache, muscle aches.",
+      "treatment": "Supportive care, rest, hydration.",
+      "medicine": "Pain relievers (Ibuprofen, Acetaminophen)."
+    },
+    {
+      "name": "Rubella (German Measles)",
+      "causative_agent": "Rubella virus",
+      "symptoms": "Mild fever, rash, swollen lymph nodes, joint pain.",
+      "treatment": "Supportive care, vaccination for prevention.",
+      "medicine": "Paracetamol for fever relief."
+    },
+    {
+      "name": "Chickenpox (Varicella)",
+      "causative_agent": "Varicella-zoster virus",
+      "symptoms": "Itchy red blisters, fever, fatigue, loss of appetite.",
+      "treatment": "Antiviral drugs in severe cases, supportive care.",
+      "medicine": "Acyclovir, Antihistamines for itching."
+    },
+    {
+      "name": "Shingles (Herpes Zoster)",
+      "causative_agent": "Varicella-zoster virus",
+      "symptoms": "Painful rash, blisters, burning sensation, fever.",
+      "treatment": "Antiviral drugs, pain management.",
+      "medicine": "Acyclovir, Valacyclovir, Famciclovir."
+    },
+    {
+      "name": "Herpes (HSV-1 & HSV-2)",
+      "causative_agent": "Herpes simplex virus",
+      "symptoms": "Painful sores, blisters on lips (HSV-1) or genitals (HSV-2), flu-like symptoms.",
+      "treatment": "Antiviral medications, supportive care.",
+      "medicine": "Acyclovir, Valacyclovir."
+    },
+    {
+      "name": "Rabies",
+      "causative_agent": "Rabies virus (Lyssavirus)",
+      "symptoms": "Fever, hydrophobia, confusion, paralysis, death if untreated.",
+      "treatment": "Post-exposure prophylaxis (PEP), rabies vaccine, immune globulin.",
+      "medicine": "Rabies Immunoglobulin, Rabies Vaccine."
+    },
+    {
+      "name": "Polio (Poliomyelitis)",
+      "causative_agent": "Poliovirus",
+      "symptoms": "Fever, headache, paralysis, muscle weakness.",
+      "treatment": "Supportive care, vaccination for prevention.",
+      "medicine": "Pain relievers, Physical therapy."
+    },
+    {
+      "name": "Ebola",
+      "causative_agent": "Ebolavirus",
+      "symptoms": "Severe fever, vomiting, diarrhea, bleeding, organ failure.",
+      "treatment": "Supportive care, fluid replacement, experimental antivirals.",
+      "medicine": "Inmazeb, ZMapp, Remdesivir."
+    },
+    {
+      "name": "Zika Virus",
+      "causative_agent": "Zika virus",
+      "symptoms": "Mild fever, rash, conjunctivitis, joint pain.",
+      "treatment": "Supportive care, rest, hydration.",
+      "medicine": "Paracetamol for symptom relief."
+    },
+    {
+      "name": "Marburg Virus Disease",
+      "causative_agent": "Marburg virus",
+      "symptoms": "High fever, severe headache, internal bleeding, organ failure.",
+      "treatment": "Supportive care, hydration, experimental treatments.",
+      "medicine": "Supportive therapy (IV fluids, pain relievers)."
+    },
+    {
+      "name": "HIV/AIDS",
+      "causative_agent": "Human Immunodeficiency Virus (HIV)",
+      "symptoms": "Weak immune system, recurrent infections, weight loss, night sweats.",
+      "treatment": "Antiretroviral therapy (ART) to manage virus levels.",
+      "medicine": "Tenofovir, Efavirenz, Ritonavir, Dolutegravir."
+    }
+  ,
+  
+    {
+      "name": "Candidiasis (Oral/Genital Thrush, Systemic Candidiasis)",
+      "causative_agent": "Candida albicans",
+      "symptoms": "White patches in mouth, itching, redness, burning sensation, systemic infection in severe cases.",
+      "treatment": "Antifungal medications, maintaining proper hygiene.",
+      "medicine": "Fluconazole, Nystatin, Clotrimazole."
+    },
+    {
+      "name": "Aspergillosis",
+      "causative_agent": "Aspergillus species",
+      "symptoms": "Cough, fever, chest pain, breathing difficulties, invasive infections in immunocompromised individuals.",
+      "treatment": "Antifungal therapy, surgery in severe cases.",
+      "medicine": "Voriconazole, Amphotericin B, Itraconazole."
+    },
+    {
+      "name": "Ringworm (Dermatophytosis)",
+      "causative_agent": "Trichophyton, Microsporum, Epidermophyton",
+      "symptoms": "Red, circular, itchy rash on the skin, hair loss in affected areas.",
+      "treatment": "Topical and oral antifungal medications.",
+      "medicine": "Terbinafine, Clotrimazole, Ketoconazole."
+    },
+    {
+      "name": "Athlete’s Foot (Tinea Pedis)",
+      "causative_agent": "Trichophyton species",
+      "symptoms": "Itching, burning, cracked skin between toes, foul odor.",
+      "treatment": "Topical antifungal creams, foot hygiene.",
+      "medicine": "Miconazole, Terbinafine, Clotrimazole."
+    },
+    {
+      "name": "Histoplasmosis",
+      "causative_agent": "Histoplasma capsulatum",
+      "symptoms": "Fever, cough, chest pain, fatigue, severe lung infection in some cases.",
+      "treatment": "Antifungal therapy for severe cases.",
+      "medicine": "Itraconazole, Amphotericin B."
+    },
+    {
+      "name": "Cryptococcosis",
+      "causative_agent": "Cryptococcus neoformans",
+      "symptoms": "Fever, cough, shortness of breath, meningitis in severe cases.",
+      "treatment": "Antifungal therapy, supportive care.",
+      "medicine": "Fluconazole, Amphotericin B."
+    },
+    {
+      "name": "Blastomycosis",
+      "causative_agent": "Blastomyces dermatitidis",
+      "symptoms": "Fever, cough, skin lesions, lung infection.",
+      "treatment": "Antifungal therapy for moderate to severe cases.",
+      "medicine": "Itraconazole, Amphotericin B."
+    }
+  ,
+  
+    {
+      "name": "Malaria",
+      "causative_agent": "Plasmodium falciparum, P. vivax, P. ovale, P. malariae",
+      "symptoms": "Fever, chills, sweating, headache, muscle pain, anemia.",
+      "treatment": "Antimalarial medications, supportive care.",
+      "medicine": "Chloroquine, Artemisinin-based Combination Therapy (ACT), Quinine."
+    },
+    {
+      "name": "Amoebiasis",
+      "causative_agent": "Entamoeba histolytica",
+      "symptoms": "Diarrhea, abdominal cramps, blood in stool, liver abscess in severe cases.",
+      "treatment": "Antiprotozoal medications, hydration therapy.",
+      "medicine": "Metronidazole, Tinidazole."
+    },
+    {
+      "name": "Giardiasis",
+      "causative_agent": "Giardia lamblia",
+      "symptoms": "Watery diarrhea, bloating, nausea, weight loss.",
+      "treatment": "Antiprotozoal therapy, hydration.",
+      "medicine": "Metronidazole, Nitazoxanide."
+    },
+    {
+      "name": "Toxoplasmosis",
+      "causative_agent": "Toxoplasma gondii",
+      "symptoms": "Flu-like symptoms, swollen lymph nodes, muscle aches, severe complications in immunocompromised individuals.",
+      "treatment": "Antiparasitic medications for severe cases.",
+      "medicine": "Pyrimethamine, Sulfadiazine."
+    },
+    {
+      "name": "Leishmaniasis",
+      "causative_agent": "Leishmania species",
+      "symptoms": "Skin sores, fever, weight loss, organ damage in severe cases.",
+      "treatment": "Antiprotozoal therapy, supportive care.",
+      "medicine": "Amphotericin B, Miltefosine."
+    },
+    {
+      "name": "Trypanosomiasis (Sleeping Sickness, Chagas Disease)",
+      "causative_agent": "Trypanosoma species",
+      "symptoms": "Fever, fatigue, swelling, neurological complications.",
+      "treatment": "Antiprotozoal medications, vector control.",
+      "medicine": "Nifurtimox, Suramin."
+    },
+    {
+      "name": "Ascariasis",
+      "causative_agent": "Ascaris lumbricoides",
+      "symptoms": "Abdominal pain, nausea, weight loss, intestinal blockage in severe cases.",
+      "treatment": "Anthelmintic medications.",
+      "medicine": "Albendazole, Mebendazole."
+    },
+    {
+      "name": "Schistosomiasis (Bilharzia)",
+      "causative_agent": "Schistosoma species",
+      "symptoms": "Fever, abdominal pain, blood in urine or stool, liver damage.",
+      "treatment": "Antiparasitic medications.",
+      "medicine": "Praziquantel."
+    },
+    {
+      "name": "Hookworm Infection",
+      "causative_agent": "Ancylostoma, Necator",
+      "symptoms": "Abdominal pain, diarrhea, anemia.",
+      "treatment": "Anthelmintic medications.",
+      "medicine": "Albendazole, Mebendazole."
+    },
+    {
+      "name": "Tapeworm Infection",
+      "causative_agent": "Taenia solium, Taenia saginata",
+      "symptoms": "Mild digestive issues, weight loss, neurocysticercosis in severe cases.",
+      "treatment": "Anthelmintic medications.",
+      "medicine": "Praziquantel, Niclosamide."
+    },
+    {
+      "name": "Filariasis (Elephantiasis)",
+      "causative_agent": "Wuchereria bancrofti, Brugia malayi",
+      "symptoms": "Swelling of limbs, fever, skin thickening.",
+      "treatment": "Antiparasitic therapy, supportive care.",
+      "medicine": "Diethylcarbamazine (DEC), Ivermectin."
+    }
+  ,
+  
+    {
+      "name": "Creutzfeldt-Jakob Disease (CJD)",
+      "causative_agent": "Abnormal prion proteins",
+      "symptoms": "Rapid mental decline, memory loss, muscle stiffness, vision problems, difficulty speaking, coma.",
+      "treatment": "No cure, supportive care for symptom management.",
+      "medicine": "No specific medicine, palliative care."
+    },
+    {
+      "name": "Bovine Spongiform Encephalopathy (Mad Cow Disease)",
+      "causative_agent": "Abnormal prion proteins",
+      "symptoms": "Difficulty walking, behavioral changes, weight loss, nervous system degeneration, eventual paralysis.",
+      "treatment": "No cure, supportive care.",
+      "medicine": "No specific medicine, symptom management."
+    },
+    {
+      "name": "Fatal Familial Insomnia (FFI)",
+      "causative_agent": "Genetic mutation causing abnormal prion proteins",
+      "symptoms": "Progressive insomnia, hallucinations, rapid weight loss, dementia, autonomic nervous system failure.",
+      "treatment": "No cure, palliative care for symptom relief.",
+      "medicine": "No specific medicine, sedatives and supportive therapy."
+    }
+  ,
+  
+    {
+      "name": "Coronary Artery Disease (CAD)",
+      "symptoms": "Chest pain (angina), shortness of breath, fatigue.",
+      "treatment": "Lifestyle changes, medications, angioplasty, or bypass surgery.",
+      "medicine": "Aspirin, Statins, Beta-blockers, ACE inhibitors."
+    },
+    {
+      "name": "Heart Attack (Myocardial Infarction, MI)",
+      "symptoms": "Severe chest pain, arm/jaw pain, shortness of breath, sweating.",
+      "treatment": "Emergency medical care, clot-busting drugs, angioplasty, or bypass surgery.",
+      "medicine": "Aspirin, Nitroglycerin, Thrombolytics, Beta-blockers."
+    },
+    {
+      "name": "Heart Failure (Congestive Heart Failure, CHF)",
+      "symptoms": "Swelling in legs, fatigue, shortness of breath, rapid heartbeat.",
+      "treatment": "Lifestyle changes, medications, implanted devices, heart transplant in severe cases.",
+      "medicine": "Diuretics, ACE inhibitors, Beta-blockers, Digoxin."
+    },
+    {
+      "name": "Arrhythmia (Irregular Heartbeat)",
+      "symptoms": "Heart palpitations, dizziness, chest discomfort, fainting.",
+      "treatment": "Medications, pacemaker, electrical cardioversion, catheter ablation.",
+      "medicine": "Antiarrhythmic drugs, Beta-blockers, Calcium channel blockers."
+    },
+    {
+      "name": "Atrial Fibrillation (AFib)",
+      "symptoms": "Irregular heartbeat, fatigue, dizziness, stroke risk.",
+      "treatment": "Blood thinners, rate control medications, electrical cardioversion.",
+      "medicine": "Warfarin, Apixaban, Beta-blockers, Amiodarone."
+    },
+    {
+      "name": "Ventricular Tachycardia (VT)",
+      "symptoms": "Fast heart rate, dizziness, fainting, sudden cardiac arrest.",
+      "treatment": "Antiarrhythmic medications, cardioversion, implantable defibrillator.",
+      "medicine": "Lidocaine, Amiodarone, Beta-blockers."
+    },
+    {
+      "name": "Bradycardia",
+      "symptoms": "Slow heart rate, dizziness, fatigue, shortness of breath.",
+      "treatment": "Pacemaker implantation if symptomatic.",
+      "medicine": "Atropine (in emergencies)."
+    },
+    {
+      "name": "Cardiomyopathy",
+      "symptoms": "Fatigue, swelling in legs, irregular heartbeat, shortness of breath.",
+      "treatment": "Lifestyle modifications, medications, heart transplant in severe cases.",
+      "medicine": "Beta-blockers, ACE inhibitors, Diuretics."
+    },
+    {
+      "name": "Hypertrophic Cardiomyopathy (HCM)",
+      "symptoms": "Chest pain, dizziness, shortness of breath, fainting.",
+      "treatment": "Medications, septal myectomy (surgery), implantable defibrillator.",
+      "medicine": "Beta-blockers, Calcium channel blockers."
+    },
+    {
+      "name": "Dilated Cardiomyopathy (DCM)",
+      "symptoms": "Fatigue, swelling, breathlessness, irregular heartbeat.",
+      "treatment": "Medications, implanted devices, heart transplant in severe cases.",
+      "medicine": "ACE inhibitors, Beta-blockers, Diuretics."
+    },
+    {
+      "name": "Restrictive Cardiomyopathy (RCM)",
+      "symptoms": "Fatigue, swelling, breathlessness, irregular heartbeat.",
+      "treatment": "Medications to manage symptoms, heart transplant in severe cases.",
+      "medicine": "Diuretics, Beta-blockers, Blood thinners."
+    },
+    {
+      "name": "Pericarditis",
+      "symptoms": "Sharp chest pain, fever, weakness, heart palpitations.",
+      "treatment": "Anti-inflammatory drugs, steroids, fluid drainage if severe.",
+      "medicine": "Ibuprofen, Colchicine, Corticosteroids."
+    },
+    {
+      "name": "Endocarditis",
+      "symptoms": "Fever, chills, fatigue, weight loss, heart murmur.",
+      "treatment": "Antibiotic therapy, surgery if necessary.",
+      "medicine": "Penicillin, Vancomycin, Gentamicin."
+    }
+  ,
+  
+    {
+      "name": "Hypertension (High Blood Pressure)",
+      "symptoms": "Often asymptomatic; headaches, dizziness, nosebleeds in severe cases.",
+      "treatment": "Lifestyle changes, medications, stress management.",
+      "medicine": "ACE inhibitors, Beta-blockers, Diuretics, Calcium channel blockers."
+    },
+    {
+      "name": "Hypotension (Low Blood Pressure)",
+      "symptoms": "Dizziness, fainting, blurred vision, shock in severe cases.",
+      "treatment": "Increased fluid intake, salt intake, medications if necessary.",
+      "medicine": "Fludrocortisone, Midodrine."
+    },
+    {
+      "name": "Atherosclerosis",
+      "symptoms": "Chest pain, numbness, weakness, stroke or heart attack risk.",
+      "treatment": "Lifestyle modifications, cholesterol-lowering drugs, surgery in severe cases.",
+      "medicine": "Statins, Aspirin, Antihypertensive drugs."
+    },
+    {
+      "name": "Arteriosclerosis",
+      "symptoms": "High blood pressure, poor circulation, heart attack/stroke risk.",
+      "treatment": "Healthy diet, exercise, cholesterol-lowering medications.",
+      "medicine": "Statins, Blood thinners, ACE inhibitors."
+    },
+    {
+      "name": "Aneurysm",
+      "symptoms": "Usually asymptomatic until rupture; sudden severe pain, dizziness, fainting.",
+      "treatment": "Monitoring for small aneurysms, surgery or stenting for large ones.",
+      "medicine": "Blood pressure-lowering drugs, Beta-blockers."
+    },
+    {
+      "name": "Aortic Aneurysm",
+      "symptoms": "Pain in chest, back, or abdomen, pulsating feeling in the stomach.",
+      "treatment": "Monitoring, surgical repair if at risk of rupture.",
+      "medicine": "Beta-blockers, Antihypertensive drugs."
+    },
+    {
+      "name": "Brain Aneurysm",
+      "symptoms": "Severe headache, nausea, vision problems, loss of consciousness.",
+      "treatment": "Surgery (clipping or coiling), blood pressure management.",
+      "medicine": "Calcium channel blockers (e.g., Nimodipine)."
+    },
+    {
+      "name": "Peripheral Artery Disease (PAD)",
+      "symptoms": "Leg pain when walking, numbness, slow-healing wounds.",
+      "treatment": "Lifestyle changes, medications, angioplasty, bypass surgery.",
+      "medicine": "Statins, Antiplatelet drugs (Aspirin, Clopidogrel), Vasodilators."
+    },
+    {
+      "name": "Carotid Artery Disease",
+      "symptoms": "Stroke symptoms (weakness, speech issues, vision problems).",
+      "treatment": "Medications, lifestyle changes, carotid endarterectomy (surgery).",
+      "medicine": "Statins, Antiplatelet drugs (Aspirin, Clopidogrel), Blood pressure meds."
+    },
+    {
+      "name": "Deep Vein Thrombosis (DVT)",
+      "symptoms": "Swelling, pain, warmth in affected leg, redness.",
+      "treatment": "Anticoagulant therapy, compression stockings, surgery in severe cases.",
+      "medicine": "Heparin, Warfarin, Direct oral anticoagulants (DOACs)."
+    },
+    {
+      "name": "Pulmonary Embolism (PE)",
+      "symptoms": "Shortness of breath, chest pain, rapid heart rate, coughing up blood.",
+      "treatment": "Anticoagulation therapy, clot-dissolving drugs, surgery in severe cases.",
+      "medicine": "Heparin, Warfarin, Thrombolytics (Alteplase)."
+    }
+  ,
+    {
+      "name": "Ischemic Stroke",
+      "symptoms": "Sudden weakness/numbness (especially on one side), trouble speaking, vision problems, severe headache, loss of coordination.",
+      "treatment": "Emergency clot-busting medications, mechanical thrombectomy, rehabilitation therapy.",
+      "medicine": "Thrombolytics (tPA - tissue plasminogen activator), Antiplatelet drugs (Aspirin, Clopidogrel), Anticoagulants (Warfarin, Heparin)."
+    },
+    {
+      "name": "Hemorrhagic Stroke",
+      "symptoms": "Severe headache, nausea, vomiting, loss of consciousness, vision issues, sudden weakness.",
+      "treatment": "Emergency blood pressure management, surgery to stop bleeding, aneurysm repair if needed.",
+      "medicine": "Antihypertensive drugs (Labetalol, Nicardipine), Anti-seizure medications if required."
+    },
+    {
+      "name": "Transient Ischemic Attack (TIA, Mini-Stroke)",
+      "symptoms": "Temporary weakness, speech issues, dizziness, blurred vision, symptoms resolve within 24 hours.",
+      "treatment": "Lifestyle changes, blood-thinning medications, surgery in high-risk cases.",
+      "medicine": "Aspirin, Clopidogrel, Anticoagulants (Warfarin, DOACs)."
+    }
+  ,
+  
+    {
+      "name": "Congenital Heart Defects",
+      "symptoms": "Bluish skin (cyanosis), rapid breathing, poor feeding, fatigue, swelling in the legs or abdomen.",
+      "treatment": "Monitoring for mild cases, surgery or catheter-based procedures for severe cases.",
+      "medicine": "Diuretics (Furosemide), Beta-blockers, ACE inhibitors (Captopril)."
+    },
+    {
+      "name": "Septal Defects (Atrial Septal Defect - ASD / Ventricular Septal Defect - VSD)",
+      "symptoms": "Heart murmur, fatigue, shortness of breath, frequent respiratory infections, poor growth in infants.",
+      "treatment": "Small defects may close on their own; larger ones require surgery or catheter-based repair.",
+      "medicine": "Diuretics, Digoxin (to strengthen the heart), blood thinners if needed."
+    },
+    {
+      "name": "Tetralogy of Fallot",
+      "symptoms": "Cyanosis (blue skin), difficulty breathing, fainting, clubbing of fingers and toes, heart murmur.",
+      "treatment": "Surgical repair in infancy (intracardiac repair).",
+      "medicine": "Prostaglandins (to keep blood vessels open in newborns before surgery), Beta-blockers (Propranolol) for symptom management."
+    },
+    {
+      "name": "Patent Ductus Arteriosus (PDA)",
+      "symptoms": "Heart murmur, rapid breathing, poor weight gain, fatigue, frequent lung infections.",
+      "treatment": "Medication to close PDA in premature babies, catheter-based closure, or surgery for larger PDAs.",
+      "medicine": "Indomethacin, Ibuprofen (to help close the PDA in newborns)."
+    },
+    {
+      "name": "Coarctation of the Aorta",
+      "symptoms": "High blood pressure, weak or absent pulses in the legs, shortness of breath, headaches, chest pain.",
+      "treatment": "Balloon angioplasty with stenting or surgical repair.",
+      "medicine": "Antihypertensives (Beta-blockers, ACE inhibitors)."
+    }
+  ,
+  
+    {
+      "name": "Aortic Stenosis",
+      "symptoms": "Chest pain, shortness of breath, fatigue, fainting (syncope), palpitations.",
+      "treatment": "Monitoring for mild cases, valve replacement (surgical or transcatheter).",
+      "medicine": "Beta-blockers, ACE inhibitors, diuretics."
+    },
+    {
+      "name": "Mitral Valve Prolapse (MVP)",
+      "symptoms": "Heart palpitations, dizziness, chest pain, shortness of breath, fatigue.",
+      "treatment": "Usually no treatment for mild cases; surgery for severe regurgitation.",
+      "medicine": "Beta-blockers (Metoprolol), blood thinners if needed."
+    },
+    {
+      "name": "Mitral Regurgitation",
+      "symptoms": "Fatigue, shortness of breath, swollen ankles, heart palpitations.",
+      "treatment": "Valve repair or replacement in severe cases.",
+      "medicine": "Diuretics (Furosemide), ACE inhibitors (Lisinopril), anticoagulants."
+    },
+    {
+      "name": "Tricuspid Regurgitation",
+      "symptoms": "Swelling in the legs and abdomen, fatigue, irregular heartbeat, shortness of breath.",
+      "treatment": "Medication to relieve symptoms, valve repair or replacement if severe.",
+      "medicine": "Diuretics, beta-blockers, anticoagulants if necessary."
+    }
+  ,
+  
+    {
+      "name": "Asthma",
+      "symptoms": "Shortness of breath, wheezing, chest tightness, coughing.",
+      "treatment": "Inhalers, bronchodilators, corticosteroids.",
+      "medicine": "Albuterol, Budesonide, Montelukast"
+    },
+    {
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "symptoms": "Chronic cough, shortness of breath, wheezing, mucus production.",
+      "treatment": "Bronchodilators, oxygen therapy, pulmonary rehabilitation.",
+      "medicine": "Tiotropium, Salmeterol, Theophylline"
+    },
+    {
+      "name": "Emphysema",
+      "symptoms": "Shortness of breath, chronic cough, fatigue.",
+      "treatment": "Oxygen therapy, pulmonary rehabilitation, smoking cessation.",
+      "medicine": "Bronchodilators, Steroids, Oxygen therapy"
+    },
+    {
+      "name": "Chronic Bronchitis",
+      "symptoms": "Persistent cough with mucus, shortness of breath, wheezing.",
+      "treatment": "Cough suppressants, bronchodilators, pulmonary therapy.",
+      "medicine": "Salbutamol, Ipratropium, Corticosteroids"
+    },
+    {
+      "name": "Pneumonia",
+      "symptoms": "Fever, cough with phlegm, difficulty breathing, chest pain.",
+      "treatment": "Antibiotics (if bacterial), oxygen therapy, rest.",
+      "medicine": "Amoxicillin, Azithromycin, Ceftriaxone"
+    },
+    {
+      "name": "Tuberculosis (TB)",
+      "symptoms": "Chronic cough, weight loss, night sweats, fever.",
+      "treatment": "Long-term antibiotic therapy (6+ months).",
+      "medicine": "Isoniazid, Rifampin, Ethambutol"
+    },
+    {
+      "name": "Bronchitis",
+      "symptoms": "Cough with mucus, chest discomfort, mild fever.",
+      "treatment": "Rest, fluids, cough suppressants, bronchodilators.",
+      "medicine": "Dextromethorphan, Guaifenesin, Albuterol"
+    },
+    {
+      "name": "Pulmonary Abscess",
+      "symptoms": "Fever, cough with foul-smelling sputum, chest pain, night sweats.",
+      "treatment": "Antibiotics, drainage of abscess if needed.",
+      "medicine": "Clindamycin, Metronidazole, Penicillin"
+    }
+  ,
+  
+    {
+      "name": "Pulmonary Embolism (PE)",
+      "symptoms": "Sudden shortness of breath, chest pain, rapid heart rate, coughing up blood.",
+      "treatment": "Anticoagulants, thrombolytic therapy, surgery in severe cases.",
+      "medicine": "Heparin, Warfarin, Rivaroxaban"
+    },
+    {
+      "name": "Pulmonary Hypertension",
+      "symptoms": "Shortness of breath, fatigue, chest pain, dizziness, swelling in legs.",
+      "treatment": "Vasodilators, oxygen therapy, lifestyle modifications.",
+      "medicine": "Sildenafil, Bosentan, Epoprostenol"
+    },
+    {
+      "name": "Pulmonary Edema",
+      "symptoms": "Severe shortness of breath, wheezing, coughing up pink frothy sputum, rapid breathing.",
+      "treatment": "Diuretics, oxygen therapy, treatment of underlying heart or lung condition.",
+      "medicine": "Furosemide, Nitroglycerin, Morphine"
+    }
+  ,
+  
+    {
+      "name": "Pulmonary Fibrosis",
+      "symptoms": "Shortness of breath, chronic dry cough, fatigue, chest discomfort.",
+      "treatment": "Oxygen therapy, pulmonary rehabilitation, antifibrotic medications.",
+      "medicine": "Pirfenidone, Nintedanib, Corticosteroids"
+    },
+    {
+      "name": "Sarcoidosis",
+      "symptoms": "Persistent cough, shortness of breath, chest pain, fatigue, skin rashes.",
+      "treatment": "Corticosteroids, immunosuppressive therapy.",
+      "medicine": "Prednisone, Methotrexate, Hydroxychloroquine"
+    },
+    {
+      "name": "Asbestosis",
+      "symptoms": "Shortness of breath, persistent dry cough, chest tightness, clubbing of fingers.",
+      "treatment": "Supportive care, oxygen therapy, pulmonary rehabilitation.",
+      "medicine": "Bronchodilators, Corticosteroids, Oxygen therapy"
+    },
+    {
+      "name": "Silicosis",
+      "symptoms": "Chronic cough, shortness of breath, fatigue, chest tightness.",
+      "treatment": "Supportive care, bronchodilators, corticosteroids.",
+      "medicine": "Albuterol, Prednisone, Oxygen therapy"
+    },
+    {
+      "name": "Coal Workers’ Pneumoconiosis (Black Lung Disease)",
+      "symptoms": "Chronic cough, difficulty breathing, chest tightness, mucus production.",
+      "treatment": "Supportive care, pulmonary rehabilitation, oxygen therapy.",
+      "medicine": "Bronchodilators, Corticosteroids, Oxygen therapy"
+    }
+  ,
+  
+    {
+      "name": "Pleurisy",
+      "symptoms": "Sharp chest pain during breathing, shortness of breath, cough, fever.",
+      "treatment": "Pain relievers, anti-inflammatory drugs, treatment of underlying cause.",
+      "medicine": "Ibuprofen, Naproxen, Corticosteroids"
+    },
+    {
+      "name": "Pneumothorax (Collapsed Lung)",
+      "symptoms": "Sudden chest pain, difficulty breathing, rapid heart rate, cyanosis (bluish skin).",
+      "treatment": "Oxygen therapy, needle aspiration, chest tube insertion.",
+      "medicine": "Oxygen therapy, Pain relievers"
+    },
+    {
+      "name": "Pleural Effusion",
+      "symptoms": "Chest pain, difficulty breathing, cough, reduced breath sounds.",
+      "treatment": "Drainage of fluid (thoracentesis), treating underlying condition.",
+      "medicine": "Diuretics, Antibiotics (if infection present)"
+    }
+  ,
+  
+    {
+      "name": "Sleep Apnea",
+      "symptoms": "Loud snoring, daytime sleepiness, gasping during sleep, headaches.",
+      "treatment": "CPAP therapy, weight management, lifestyle changes.",
+      "medicine": "Modafinil (for daytime sleepiness), CPAP therapy"
+    },
+    {
+      "name": "Obstructive Sleep Apnea (OSA)",
+      "symptoms": "Interrupted breathing during sleep, loud snoring, fatigue, difficulty concentrating.",
+      "treatment": "CPAP therapy, oral appliances, surgery in severe cases.",
+      "medicine": "CPAP therapy, Nasal decongestants"
+    }
+  ,
+  
+    {
+      "name": "Lung Cancer",
+      "symptoms": "Persistent cough, chest pain, coughing up blood, weight loss, shortness of breath.",
+      "treatment": "Surgery, chemotherapy, radiation therapy, targeted therapy.",
+      "medicine": "Cisplatin, Pembrolizumab, Erlotinib"
+    },
+    {
+      "name": "Mesothelioma",
+      "symptoms": "Chest pain, shortness of breath, fluid buildup in the lungs, fatigue, weight loss.",
+      "treatment": "Surgery, chemotherapy, radiation therapy, immunotherapy.",
+      "medicine": "Pemetrexed, Cisplatin, Nivolumab"
+    }
+  ,
+  
+    {
+      "name": "Gastroesophageal Reflux Disease (GERD)",
+      "symptoms": "Heartburn, regurgitation, chest pain, difficulty swallowing.",
+      "treatment": "Lifestyle changes, acid-suppressing medications, surgery in severe cases.",
+      "medicine": "Omeprazole, Ranitidine, Antacids"
+    },
+    {
+      "name": "Esophagitis",
+      "symptoms": "Painful swallowing, heartburn, chest pain, nausea.",
+      "treatment": "Acid suppression, avoiding irritants, treating infections if present.",
+      "medicine": "Proton pump inhibitors (PPIs), Corticosteroids, Antifungals (if fungal infection)"
+    },
+    {
+      "name": "Barrett’s Esophagus",
+      "symptoms": "Chronic heartburn, regurgitation, difficulty swallowing.",
+      "treatment": "Acid suppression, lifestyle modifications, endoscopic therapy.",
+      "medicine": "Esomeprazole, Pantoprazole, H2 blockers"
+    },
+    {
+      "name": "Achalasia",
+      "symptoms": "Difficulty swallowing, chest pain, regurgitation, weight loss.",
+      "treatment": "Balloon dilation, Botox injections, surgery (Heller myotomy).",
+      "medicine": "Nifedipine, Botox injections, Isosorbide dinitrate"
+    },
+    {
+      "name": "Esophageal Stricture",
+      "symptoms": "Difficulty swallowing, chest discomfort, regurgitation of food.",
+      "treatment": "Esophageal dilation, acid suppression therapy.",
+      "medicine": "Proton pump inhibitors (PPIs), Corticosteroids"
+    },
+    {
+      "name": "Esophageal Cancer",
+      "symptoms": "Difficulty swallowing, weight loss, chest pain, persistent cough.",
+      "treatment": "Surgery, chemotherapy, radiation therapy, targeted therapy.",
+      "medicine": "Cisplatin, Fluorouracil (5-FU), Pembrolizumab"
+    }
+  ,
+  
+    {
+      "name": "Gastritis",
+      "symptoms": "Abdominal pain, nausea, vomiting, bloating, indigestion.",
+      "treatment": "Acid-suppressing medications, lifestyle changes, treating infections if present.",
+      "medicine": "Omeprazole, Ranitidine, Antacids"
+    },
+    {
+      "name": "Peptic Ulcer Disease (PUD)",
+      "symptoms": "Burning stomach pain, bloating, nausea, vomiting, black stools.",
+      "treatment": "Acid suppression, antibiotics (if H. pylori infection), lifestyle changes.",
+      "medicine": "Lansoprazole, Amoxicillin, Clarithromycin"
+    },
+    {
+      "name": "Gastroenteritis (Stomach Flu)",
+      "symptoms": "Diarrhea, nausea, vomiting, stomach cramps, fever.",
+      "treatment": "Hydration, rest, symptomatic relief.",
+      "medicine": "Oral rehydration salts (ORS), Loperamide, Probiotics"
+    },
+    {
+      "name": "Stomach Cancer",
+      "symptoms": "Unexplained weight loss, persistent stomach pain, nausea, vomiting, bloating.",
+      "treatment": "Surgery, chemotherapy, radiation therapy, targeted therapy.",
+      "medicine": "Cisplatin, Fluorouracil (5-FU), Trastuzumab"
+    }
+  ,
+  
+    {
+      "name": "Hepatitis (A, B, C, D, E)",
+      "symptoms": "Fatigue, jaundice, nausea, abdominal pain, dark urine.",
+      "treatment": "Supportive care for acute cases, antiviral medications for chronic cases.",
+      "medicine": "Interferon, Ribavirin, Tenofovir, Sofosbuvir"
+    },
+    {
+      "name": "Fatty Liver Disease (NAFLD & AFLD)",
+      "symptoms": "Fatigue, abdominal discomfort, unexplained weight loss.",
+      "treatment": "Lifestyle changes, weight management, alcohol cessation (for AFLD).",
+      "medicine": "Vitamin E, Pioglitazone, Metformin (for NAFLD)"
+    },
+    {
+      "name": "Cirrhosis",
+      "symptoms": "Fatigue, jaundice, swelling in legs, confusion, easy bruising.",
+      "treatment": "Managing underlying cause, liver transplant in severe cases.",
+      "medicine": "Diuretics, Lactulose, Beta-blockers"
+    },
+    {
+      "name": "Liver Cancer (Hepatocellular Carcinoma)",
+      "symptoms": "Unintentional weight loss, abdominal pain, jaundice, nausea.",
+      "treatment": "Surgery, chemotherapy, targeted therapy, liver transplant.",
+      "medicine": "Sorafenib, Lenvatinib, Cisplatin"
+    },
+    {
+      "name": "Jaundice",
+      "symptoms": "Yellowing of the skin and eyes, dark urine, pale stools, fatigue.",
+      "treatment": "Treating underlying cause, phototherapy (for newborns).",
+      "medicine": "Ursodeoxycholic acid, Cholestyramine, Antiviral drugs (if caused by hepatitis)"
+    },
+    {
+      "name": "Hemochromatosis",
+      "symptoms": "Joint pain, fatigue, liver enlargement, skin darkening.",
+      "treatment": "Regular blood removal (phlebotomy), iron chelation therapy.",
+      "medicine": "Deferoxamine, Deferasirox, Deferiprone"
+    }
+  ,
+  
+    {
+      "name": "Gallstones (Cholelithiasis)",
+      "symptoms": "Severe abdominal pain, nausea, vomiting, jaundice.",
+      "treatment": "Observation, medications to dissolve stones, surgery (cholecystectomy).",
+      "medicine": "Ursodeoxycholic acid"
+    },
+    {
+      "name": "Cholecystitis",
+      "symptoms": "Sharp upper abdominal pain, fever, nausea, bloating.",
+      "treatment": "Antibiotics, pain relievers, gallbladder removal if severe.",
+      "medicine": "Ceftriaxone, Metronidazole, NSAIDs"
+    },
+    {
+      "name": "Biliary Obstruction",
+      "symptoms": "Jaundice, dark urine, pale stools, abdominal pain.",
+      "treatment": "Endoscopic removal of blockage, surgery, stent placement.",
+      "medicine": "Ursodiol, Antibiotics (if infection present)"
+    },
+    {
+      "name": "Gallbladder Cancer",
+      "symptoms": "Abdominal pain, jaundice, nausea, weight loss, bloating.",
+      "treatment": "Surgery, chemotherapy, radiation therapy.",
+      "medicine": "Gemcitabine, Cisplatin, Capecitabine"
+    }
+  ,
+  
+    {
+      "name": "Pancreatitis (Acute & Chronic)",
+      "symptoms": "Severe abdominal pain, nausea, vomiting, fever, weight loss.",
+      "treatment": "IV fluids, pain management, enzyme supplements for chronic cases.",
+      "medicine": "Pancrelipase, Analgesics, IV Fluids"
+    },
+    {
+      "name": "Pancreatic Cancer",
+      "symptoms": "Jaundice, unexplained weight loss, abdominal pain, loss of appetite.",
+      "treatment": "Surgery, chemotherapy, radiation therapy, targeted therapy.",
+      "medicine": "Gemcitabine, Erlotinib, Fluorouracil (5-FU)"
+    },
+    {
+      "name": "Diabetes Mellitus (Type 1 & Type 2)",
+      "symptoms": "Frequent urination, excessive thirst, fatigue, blurred vision.",
+      "treatment": "Insulin therapy (Type 1), oral medications and lifestyle changes (Type 2).",
+      "medicine": "Insulin, Metformin, Sulfonylureas"
+    }
+  ,
+  
+    {
+      "name": "Crohn’s Disease",
+      "symptoms": "Abdominal pain, diarrhea, weight loss, fatigue, mouth sores.",
+      "treatment": "Anti-inflammatory drugs, immunosuppressants, surgery if necessary.",
+      "medicine": "Mesalamine, Infliximab, Prednisone"
+    },
+    {
+      "name": "Ulcerative Colitis (UC)",
+      "symptoms": "Bloody diarrhea, abdominal cramps, fatigue, weight loss.",
+      "treatment": "Anti-inflammatory drugs, immunosuppressants, surgery in severe cases.",
+      "medicine": "Sulfasalazine, Adalimumab, Corticosteroids"
+    },
+    {
+      "name": "Irritable Bowel Syndrome (IBS)",
+      "symptoms": "Abdominal pain, bloating, gas, diarrhea or constipation.",
+      "treatment": "Dietary modifications, stress management, symptom-based medications.",
+      "medicine": "Loperamide, Linaclotide, Antispasmodics"
+    },
+    {
+      "name": "Celiac Disease",
+      "symptoms": "Diarrhea, bloating, weight loss, fatigue, anemia.",
+      "treatment": "Strict gluten-free diet, vitamin and mineral supplementation.",
+      "medicine": "Gluten-free diet, Vitamin D, Iron supplements"
+    },
+    {
+      "name": "Lactose Intolerance",
+      "symptoms": "Bloating, diarrhea, gas, stomach cramps after dairy consumption.",
+      "treatment": "Lactose-free diet, lactase enzyme supplements.",
+      "medicine": "Lactase enzyme supplements"
+    },
+    {
+      "name": "Small Intestinal Bacterial Overgrowth (SIBO)",
+      "symptoms": "Bloating, diarrhea, abdominal pain, malnutrition.",
+      "treatment": "Antibiotics, dietary modifications, probiotics.",
+      "medicine": "Rifaximin, Metronidazole, Probiotics"
+    },
+    {
+      "name": "Diverticulosis & Diverticulitis",
+      "symptoms": "Lower abdominal pain, bloating, fever (in diverticulitis).",
+      "treatment": "High-fiber diet (for diverticulosis), antibiotics and rest (for diverticulitis).",
+      "medicine": "Ciprofloxacin, Metronidazole, Fiber supplements"
+    },
+    {
+      "name": "Appendicitis",
+      "symptoms": "Severe lower right abdominal pain, fever, nausea, vomiting.",
+      "treatment": "Emergency surgical removal of the appendix (appendectomy).",
+      "medicine": "Antibiotics (before surgery), Pain relievers"
+    },
+    {
+      "name": "Colorectal Cancer",
+      "symptoms": "Rectal bleeding, weight loss, abdominal pain, changes in bowel habits.",
+      "treatment": "Surgery, chemotherapy, radiation therapy, targeted therapy.",
+      "medicine": "Fluorouracil (5-FU), Oxaliplatin, Bevacizumab"
+    }
+  ,
+  
+    {
+      "name": "Hemorrhoids",
+      "symptoms": "Rectal pain, itching, bleeding, swelling around the anus.",
+      "treatment": "Dietary fiber increase, topical treatments, minimally invasive procedures.",
+      "medicine": "Hydrocortisone cream, Witch hazel, Stool softeners"
+    },
+    {
+      "name": "Anal Fissures",
+      "symptoms": "Sharp pain during bowel movements, rectal bleeding, itching.",
+      "treatment": "Topical anesthetics, stool softeners, warm baths, surgery in severe cases.",
+      "medicine": "Lidocaine, Nitroglycerin ointment, Diltiazem cream"
+    },
+    {
+      "name": "Rectal Prolapse",
+      "symptoms": "Rectal tissue protruding, discomfort, bowel leakage, bleeding.",
+      "treatment": "Dietary changes, pelvic floor exercises, surgery if severe.",
+      "medicine": "Stool softeners, Fiber supplements, Pain relievers"
+    },
+    {
+      "name": "Fecal Incontinence",
+      "symptoms": "Inability to control bowel movements, stool leakage, urgency.",
+      "treatment": "Pelvic floor therapy, dietary changes, surgery in severe cases.",
+      "medicine": "Loperamide, Fiber supplements, Biofeedback therapy"
+    }
+  ,
+  
+    {
+      "name": "Gastroparesis",
+      "symptoms": "Nausea, vomiting, bloating, early fullness, abdominal pain.",
+      "treatment": "Dietary changes, prokinetic medications, gastric electrical stimulation.",
+      "medicine": "Metoclopramide, Domperidone, Erythromycin"
+    },
+    {
+      "name": "Hirschsprung’s Disease",
+      "symptoms": "Severe constipation, swollen abdomen, failure to pass stool in newborns.",
+      "treatment": "Surgical removal of affected colon segment.",
+      "medicine": "Laxatives (temporary relief), Stool softeners"
+    },
+    {
+      "name": "Intestinal Obstruction",
+      "symptoms": "Severe abdominal pain, bloating, constipation, vomiting.",
+      "treatment": "IV fluids, bowel rest, surgery if severe.",
+      "medicine": "Nasogastric decompression, Pain relievers, IV fluids"
+    }
+  ,
+  
+    {
+      "name": "Alzheimer’s Disease",
+      "symptoms": "Memory loss, confusion, difficulty thinking, personality changes.",
+      "treatment": "Medications to slow progression, cognitive therapy, supportive care.",
+      "medicine": "Donepezil, Rivastigmine, Memantine"
+    },
+    {
+      "name": "Parkinson’s Disease",
+      "symptoms": "Tremors, muscle stiffness, slow movement, balance issues.",
+      "treatment": "Dopamine replacement therapy, deep brain stimulation, physical therapy.",
+      "medicine": "Levodopa-Carbidopa, Pramipexole, Selegiline"
+    },
+    {
+      "name": "Huntington’s Disease",
+      "symptoms": "Involuntary movements, cognitive decline, mood disturbances.",
+      "treatment": "Supportive care, symptom management, speech and physical therapy.",
+      "medicine": "Tetrabenazine, Antipsychotics, Antidepressants"
+    },
+    {
+      "name": "Amyotrophic Lateral Sclerosis (ALS, Lou Gehrig’s Disease)",
+      "symptoms": "Muscle weakness, difficulty speaking and swallowing, respiratory failure.",
+      "treatment": "Medications to slow progression, physical therapy, respiratory support.",
+      "medicine": "Riluzole, Edaravone, Muscle relaxants"
+    },
+    {
+      "name": "Multiple Sclerosis (MS)",
+      "symptoms": "Numbness, weakness, vision problems, difficulty with coordination.",
+      "treatment": "Immunomodulatory therapy, physical therapy, steroids for flare-ups.",
+      "medicine": "Interferon beta, Fingolimod, Natalizumab"
+    },
+    {
+      "name": "Friedreich’s Ataxia",
+      "symptoms": "Coordination loss, muscle weakness, heart problems, difficulty walking.",
+      "treatment": "Physical therapy, assistive devices, symptom management.",
+      "medicine": "Idebenone, Antioxidants, Physical therapy"
+    }
+  ,
+  
+    {
+      "name": "Stroke (Cerebral Infarction)",
+      "symptoms": "Sudden weakness, slurred speech, vision problems, facial drooping.",
+      "treatment": "Emergency clot-busting medication, surgery, rehabilitation therapy.",
+      "medicine": "Alteplase (tPA), Aspirin, Statins"
+    },
+    {
+      "name": "Transient Ischemic Attack (TIA, Mini-Stroke)",
+      "symptoms": "Temporary weakness, confusion, dizziness, speech difficulties.",
+      "treatment": "Blood thinners, lifestyle changes, surgery in severe cases.",
+      "medicine": "Aspirin, Clopidogrel, Warfarin"
+    },
+    {
+      "name": "Aneurysm",
+      "symptoms": "Often asymptomatic until rupture, severe headache, vision problems, nausea.",
+      "treatment": "Surgical clipping, endovascular coiling, blood pressure management.",
+      "medicine": "Antihypertensives, Pain relievers, Calcium channel blockers"
+    },
+    {
+      "name": "Brain Hemorrhage (Intracerebral Hemorrhage)",
+      "symptoms": "Severe headache, weakness, loss of consciousness, nausea, vision issues.",
+      "treatment": "Blood pressure control, surgery to stop bleeding, supportive care.",
+      "medicine": "Antihypertensives, Osmotic diuretics, Anticonvulsants"
+    },
+    {
+      "name": "Vascular Dementia",
+      "symptoms": "Memory loss, difficulty concentrating, confusion, mood changes.",
+      "treatment": "Managing underlying conditions, cognitive therapy, lifestyle changes.",
+      "medicine": "Donepezil, Memantine, Blood pressure medications"
+    }
+  ,
+  
+    {
+      "name": "Essential Tremor",
+      "symptoms": "Uncontrollable shaking, usually in the hands, worsening with movement.",
+      "treatment": "Medications, physical therapy, deep brain stimulation in severe cases.",
+      "medicine": "Propranolol, Primidone, Gabapentin"
+    },
+    {
+      "name": "Dystonia",
+      "symptoms": "Involuntary muscle contractions, twisting movements, abnormal postures.",
+      "treatment": "Muscle relaxants, botulinum toxin injections, deep brain stimulation.",
+      "medicine": "Botulinum toxin, Baclofen, Diazepam"
+    },
+    {
+      "name": "Tourette Syndrome",
+      "symptoms": "Involuntary tics, sudden movements or vocalizations, worsens with stress.",
+      "treatment": "Behavioral therapy, medications to reduce tics.",
+      "medicine": "Haloperidol, Clonidine, Risperidone"
+    },
+    {
+      "name": "Restless Legs Syndrome (RLS)",
+      "symptoms": "Uncontrollable urge to move the legs, especially at night, discomfort.",
+      "treatment": "Lifestyle changes, medications, iron supplements if deficient.",
+      "medicine": "Pramipexole, Ropinirole, Gabapentin"
+    },
+    {
+      "name": "Cerebral Palsy (CP)",
+      "symptoms": "Muscle stiffness, difficulty with movement, poor coordination, speech problems.",
+      "treatment": "Physical therapy, speech therapy, medications, surgery in severe cases.",
+      "medicine": "Baclofen, Diazepam, Botulinum toxin"
+    }
+  ,
+  
+    {
+      "name": "Epilepsy",
+      "symptoms": "Recurrent seizures, loss of consciousness, abnormal movements, confusion.",
+      "treatment": "Antiepileptic medications, lifestyle modifications, surgery in severe cases.",
+      "medicine": "Carbamazepine, Valproic Acid, Levetiracetam"
+    },
+    {
+      "name": "Absence Seizures (Petit Mal)",
+      "symptoms": "Brief lapses in awareness, staring spells, sudden stopping of activity.",
+      "treatment": "Antiepileptic medications, lifestyle adjustments.",
+      "medicine": "Ethosuximide, Valproic Acid, Lamotrigine"
+    },
+    {
+      "name": "Tonic-Clonic Seizures (Grand Mal)",
+      "symptoms": "Severe convulsions, loss of consciousness, muscle rigidity, jerking movements.",
+      "treatment": "Antiseizure medications, emergency care for prolonged seizures.",
+      "medicine": "Phenytoin, Phenobarbital, Levetiracetam"
+    },
+    {
+      "name": "Focal Seizures",
+      "symptoms": "Seizures affecting one part of the brain, twitching, altered senses, confusion.",
+      "treatment": "Medications, surgery in severe cases, dietary therapy.",
+      "medicine": "Oxcarbazepine, Topiramate, Gabapentin"
+    }
+  ,
+  
+    {
+      "name": "Guillain-Barré Syndrome (GBS)",
+      "symptoms": "Muscle weakness, tingling, paralysis, difficulty breathing in severe cases.",
+      "treatment": "Plasmapheresis, intravenous immunoglobulin (IVIG), supportive care.",
+      "medicine": "IV Immunoglobulin, Pain relievers, Corticosteroids"
+    },
+    {
+      "name": "Peripheral Neuropathy",
+      "symptoms": "Numbness, tingling, burning pain, muscle weakness, loss of coordination.",
+      "treatment": "Treating underlying condition, pain management, physical therapy.",
+      "medicine": "Gabapentin, Pregabalin, Duloxetine"
+    },
+    {
+      "name": "Carpal Tunnel Syndrome",
+      "symptoms": "Numbness, tingling, and weakness in the hand and fingers, wrist pain.",
+      "treatment": "Wrist splints, physical therapy, surgery in severe cases.",
+      "medicine": "NSAIDs, Corticosteroid injections, Pain relievers"
+    },
+    {
+      "name": "Bell’s Palsy",
+      "symptoms": "Sudden facial paralysis or weakness, drooping of one side of the face.",
+      "treatment": "Corticosteroids, antiviral therapy if viral infection is suspected.",
+      "medicine": "Prednisone, Acyclovir, Pain relievers"
+    },
+    {
+      "name": "Sciatica",
+      "symptoms": "Sharp pain radiating from the lower back down the leg, numbness, tingling.",
+      "treatment": "Physical therapy, pain management, surgery in severe cases.",
+      "medicine": "NSAIDs, Muscle relaxants, Corticosteroid injections"
+    }
+  ,
+  
+    {
+      "name": "Multiple Sclerosis (MS)",
+      "symptoms": "Muscle weakness, vision problems, fatigue, difficulty with coordination and balance.",
+      "treatment": "Immunomodulatory drugs, physical therapy, symptom management.",
+      "medicine": "Interferon beta, Fingolimod, Natalizumab"
+    },
+    {
+      "name": "Myasthenia Gravis",
+      "symptoms": "Muscle weakness, difficulty swallowing, drooping eyelids, fatigue.",
+      "treatment": "Immunosuppressants, acetylcholinesterase inhibitors, plasma exchange in severe cases.",
+      "medicine": "Pyridostigmine, Prednisone, Azathioprine"
+    },
+    {
+      "name": "Lupus-Related Neuropathy",
+      "symptoms": "Nerve pain, muscle weakness, numbness, cognitive issues, seizures.",
+      "treatment": "Immunosuppressive therapy, corticosteroids, pain management.",
+      "medicine": "Hydroxychloroquine, Corticosteroids, Methotrexate"
+    }
+  ,
+    {
+      "name": "Traumatic Brain Injury (TBI)",
+      "symptoms": "Headache, confusion, dizziness, memory loss, mood changes, loss of consciousness.",
+      "treatment": "Supportive care, physical therapy, surgery in severe cases.",
+      "medicine": "Pain relievers, Anti-seizure medications, Diuretics"
+    },
+    {
+      "name": "Spinal Cord Injury (SCI)",
+      "symptoms": "Loss of movement, numbness, paralysis, difficulty breathing in severe cases.",
+      "treatment": "Immobilization, physical therapy, surgery, rehabilitation.",
+      "medicine": "Corticosteroids, Muscle relaxants, Pain relievers"
+    },
+    {
+      "name": "Concussion",
+      "symptoms": "Headache, confusion, dizziness, nausea, memory problems, temporary loss of consciousness.",
+      "treatment": "Rest, symptom management, gradual return to activities.",
+      "medicine": "Pain relievers (Acetaminophen), Anti-nausea medications"
+    }
+  ,
+  
+    {
+      "name": "Migraine",
+      "symptoms": "Severe throbbing headache, nausea, vomiting, sensitivity to light and sound, visual disturbances.",
+      "treatment": "Pain management, lifestyle changes, preventive medications.",
+      "medicine": "Triptans, Ergotamines, Beta-blockers, CGRP inhibitors"
+    },
+    {
+      "name": "Cluster Headaches",
+      "symptoms": "Intense burning or piercing headache, usually around one eye, nasal congestion, watery eyes.",
+      "treatment": "Oxygen therapy, pain relievers, preventive medications.",
+      "medicine": "Sumatriptan, Verapamil, Prednisone"
+    },
+    {
+      "name": "Tension Headaches",
+      "symptoms": "Dull, aching head pain, tightness or pressure across forehead or back of the head.",
+      "treatment": "Stress management, physical therapy, pain relief medications.",
+      "medicine": "NSAIDs, Acetaminophen, Muscle relaxants"
+    },
+    {
+      "name": "Trigeminal Neuralgia",
+      "symptoms": "Severe, stabbing facial pain triggered by mild stimulation like touch or chewing.",
+      "treatment": "Medication, nerve blocks, surgery in severe cases.",
+      "medicine": "Carbamazepine, Gabapentin, Baclofen"
+    }
+  ,
+  
+    {
+      "name": "Narcolepsy",
+      "symptoms": "Excessive daytime sleepiness, sudden sleep attacks, cataplexy (sudden muscle weakness), hallucinations, sleep paralysis.",
+      "treatment": "Stimulant medications, lifestyle adjustments, scheduled naps.",
+      "medicine": "Modafinil, Sodium Oxybate, Methylphenidate"
+    },
+    {
+      "name": "Sleep Apnea",
+      "symptoms": "Loud snoring, choking or gasping during sleep, excessive daytime fatigue, morning headaches.",
+      "treatment": "CPAP therapy, weight management, surgery in severe cases.",
+      "medicine": "Nasal decongestants, Positive airway pressure therapy"
+    },
+    {
+      "name": "REM Sleep Behavior Disorder",
+      "symptoms": "Acting out dreams, talking, shouting, kicking, or punching during sleep.",
+      "treatment": "Sleep safety precautions, medication to suppress abnormal movements.",
+      "medicine": "Clonazepam, Melatonin"
+    }
+  ,
+  
+    {
+      "name": "Glioblastoma",
+      "symptoms": "Severe headaches, nausea, vomiting, seizures, personality changes, memory loss.",
+      "treatment": "Surgery, radiation therapy, chemotherapy, targeted therapy.",
+      "medicine": "Temozolomide, Bevacizumab, Corticosteroids"
+    },
+    {
+      "name": "Meningioma",
+      "symptoms": "Headaches, vision problems, seizures, weakness in limbs, cognitive difficulties.",
+      "treatment": "Observation, surgery, radiation therapy.",
+      "medicine": "Corticosteroids, Anti-seizure medications"
+    },
+    {
+      "name": "Acoustic Neuroma",
+      "symptoms": "Hearing loss, ringing in the ears (tinnitus), balance issues, dizziness.",
+      "treatment": "Observation, radiation therapy, surgery.",
+      "medicine": "Vestibular suppressants, Pain relievers"
+    },
+    {
+      "name": "Pituitary Tumors",
+      "symptoms": "Hormonal imbalances, vision problems, unexplained weight changes, fatigue.",
+      "treatment": "Medication, surgery, radiation therapy.",
+      "medicine": "Dopamine agonists (Cabergoline, Bromocriptine), Hormone replacement therapy"
+    }
+  ,
+  
+    {
+      "name": "Hypothyroidism",
+      "symptoms": "Fatigue, weight gain, cold intolerance, dry skin, slow heart rate.",
+      "treatment": "Thyroid hormone replacement therapy.",
+      "medicine": "Levothyroxine"
+    },
+    {
+      "name": "Hyperthyroidism",
+      "symptoms": "Weight loss, rapid heartbeat, excessive sweating, nervousness, heat intolerance.",
+      "treatment": "Antithyroid medications, radioactive iodine therapy, surgery.",
+      "medicine": "Methimazole, Propylthiouracil, Beta-blockers"
+    },
+    {
+      "name": "Goiter",
+      "symptoms": "Swelling in the neck, difficulty swallowing, hoarseness.",
+      "treatment": "Iodine supplementation, thyroid hormone therapy, surgery if severe.",
+      "medicine": "Levothyroxine, Iodine supplements"
+    },
+    {
+      "name": "Hashimoto’s Thyroiditis",
+      "symptoms": "Fatigue, weight gain, joint pain, depression, hair thinning.",
+      "treatment": "Thyroid hormone replacement therapy.",
+      "medicine": "Levothyroxine"
+    },
+    {
+      "name": "Graves’ Disease",
+      "symptoms": "Bulging eyes, weight loss, rapid heartbeat, tremors, heat intolerance.",
+      "treatment": "Antithyroid medications, radioactive iodine therapy, surgery.",
+      "medicine": "Methimazole, Propylthiouracil, Beta-blockers"
+    },
+    {
+      "name": "Thyroid Nodules",
+      "symptoms": "Lump in the neck, difficulty swallowing, voice changes (if large).",
+      "treatment": "Monitoring, biopsy, surgery if cancerous.",
+      "medicine": "Levothyroxine (if needed)"
+    },
+    {
+      "name": "Thyroid Cancer",
+      "symptoms": "Neck lump, voice changes, difficulty swallowing, swollen lymph nodes.",
+      "treatment": "Surgery, radioactive iodine therapy, chemotherapy, targeted therapy.",
+      "medicine": "Levothyroxine, Targeted therapy drugs"
+    }
+  ,
+  
+    {
+      "name": "Type 1 Diabetes Mellitus",
+      "symptoms": "Frequent urination, excessive thirst, weight loss, fatigue, blurred vision.",
+      "treatment": "Insulin therapy, blood sugar monitoring, dietary management.",
+      "medicine": "Insulin (short-acting, long-acting)"
+    },
+    {
+      "name": "Type 2 Diabetes Mellitus",
+      "symptoms": "Increased thirst, frequent urination, fatigue, slow wound healing, blurred vision.",
+      "treatment": "Dietary changes, exercise, oral medications, insulin if needed.",
+      "medicine": "Metformin, Sulfonylureas, DPP-4 inhibitors, Insulin (if needed)"
+    },
+    {
+      "name": "Gestational Diabetes",
+      "symptoms": "Usually asymptomatic, sometimes excessive thirst, frequent urination.",
+      "treatment": "Diet control, exercise, insulin therapy if necessary.",
+      "medicine": "Insulin (if required), Metformin (in some cases)"
+    },
+    {
+      "name": "Prediabetes",
+      "symptoms": "Often no symptoms, but may include increased thirst and fatigue.",
+      "treatment": "Lifestyle modifications (diet, exercise), weight management.",
+      "medicine": "Metformin (for high-risk individuals)"
+    },
+    {
+      "name": "Diabetic Ketoacidosis (DKA)",
+      "symptoms": "Nausea, vomiting, abdominal pain, rapid breathing, fruity-smelling breath, confusion.",
+      "treatment": "Intravenous fluids, insulin therapy, electrolyte replacement.",
+      "medicine": "Intravenous insulin, electrolyte replacement"
+    }
+    ,
+    {
+      "name": "Cushing’s Syndrome",
+      "symptoms": "Weight gain, high blood pressure, muscle weakness, thinning skin, round face.",
+      "treatment": "Reducing corticosteroid use, surgery for tumors, radiation therapy.",
+      "medicine": "Ketoconazole, Metyrapone, Mitotane"
+    },
+    {
+      "name": "Addison’s Disease",
+      "symptoms": "Fatigue, low blood pressure, weight loss, darkening of the skin, nausea.",
+      "treatment": "Hormone replacement therapy, increased salt intake.",
+      "medicine": "Hydrocortisone, Fludrocortisone"
+    },
+    {
+      "name": "Congenital Adrenal Hyperplasia (CAH)",
+      "symptoms": "Irregular growth, early puberty, ambiguous genitalia in severe cases.",
+      "treatment": "Hormone replacement therapy, surgery in severe cases.",
+      "medicine": "Hydrocortisone, Fludrocortisone"
+    },
+    {
+      "name": "Adrenal Insufficiency",
+      "symptoms": "Weakness, fatigue, weight loss, nausea, low blood pressure.",
+      "treatment": "Lifelong hormone replacement therapy.",
+      "medicine": "Hydrocortisone, Prednisone, Fludrocortisone"
+    },
+    {
+      "name": "Adrenal Tumors",
+      "symptoms": "High blood pressure, weight gain, hormonal imbalances, excessive sweating.",
+      "treatment": "Surgical removal, chemotherapy, radiation therapy.",
+      "medicine": "Mitotane (for adrenal cancer), Spironolactone (for hormone control)"
+    },
+  
+    {
+      "name": "Acromegaly",
+      "symptoms": "Enlarged hands and feet, facial changes, joint pain, thickened skin, fatigue.",
+      "treatment": "Surgery to remove tumor, medications to reduce growth hormone, radiation therapy.",
+      "medicine": "Octreotide, Lanreotide, Pegvisomant"
+    },
+    {
+      "name": "Pituitary Tumors",
+      "symptoms": "Headaches, vision problems, hormone imbalances, unexplained weight changes.",
+      "treatment": "Surgery, radiation therapy, medication for hormone regulation.",
+      "medicine": "Cabergoline, Bromocriptine"
+    },
+    {
+      "name": "Hypopituitarism",
+      "symptoms": "Fatigue, low blood pressure, infertility, slow growth, reduced metabolism.",
+      "treatment": "Hormone replacement therapy, treating underlying cause.",
+      "medicine": "Hydrocortisone, Levothyroxine, Growth hormone therapy"
+    },
+    {
+      "name": "Prolactinoma",
+      "symptoms": "Irregular menstrual cycles, infertility, milk production (galactorrhea), low libido.",
+      "treatment": "Medications to shrink the tumor, surgery if necessary.",
+      "medicine": "Cabergoline, Bromocriptine"
+    }
+  
+  ,
+    {
+      "name": "Hyperparathyroidism",
+      "symptoms": "Weak bones, kidney stones, excessive urination, fatigue, depression.",
+      "treatment": "Surgery to remove overactive gland, medications to manage calcium levels.",
+      "medicine": "Cinacalcet, Bisphosphonates, Vitamin D supplements"
+    },
+    {
+      "name": "Hypoparathyroidism",
+      "symptoms": "Muscle cramps, tingling in fingers, fatigue, brittle nails, seizures.",
+      "treatment": "Calcium and vitamin D supplements, synthetic parathyroid hormone.",
+      "medicine": "Calcium carbonate, Calcitriol, Natpara (PTH therapy)"
+    },
+    {
+      "name": "Osteoporosis",
+      "symptoms": "Bone fractures, back pain, loss of height, fragile bones.",
+      "treatment": "Calcium and vitamin D supplements, weight-bearing exercises, medications.",
+      "medicine": "Alendronate, Risedronate, Denosumab"
+    },
+    {
+      "name": "Rickets & Osteomalacia",
+      "symptoms": "Soft bones, bone pain, muscle weakness, skeletal deformities.",
+      "treatment": "Vitamin D and calcium supplementation, exposure to sunlight.",
+      "medicine": "Cholecalciferol (Vitamin D3), Calcium supplements"
+    }
+  ,
+    {
+      "name": "Paget’s Disease of Bone",
+      "symptoms": "Bone pain, deformities, fractures, hearing loss.",
+      "treatment": "Medications to regulate bone remodeling, surgery if severe.",
+      "medicine": "Bisphosphonates (Alendronate), Calcitonin"
+    },
+    {
+      "name": "Hypercalcemia",
+      "symptoms": "Nausea, vomiting, confusion, muscle weakness, frequent urination.",
+      "treatment": "Hydration, medications to lower calcium levels.",
+      "medicine": "Bisphosphonates (Zoledronic acid), Calcitonin"
+    }
+  ,
+    {
+      "name": "Hypocalcemia",
+      "symptoms": "Muscle cramps, tingling in fingers, fatigue, seizures.",
+      "treatment": "Calcium and vitamin D supplementation.",
+      "medicine": "Calcium carbonate, Calcitriol"
+    },
+    {
+      "name": "Vitamin D Deficiency",
+      "symptoms": "Fatigue, bone pain, muscle weakness, increased risk of fractures.",
+      "treatment": "Vitamin D supplementation, dietary changes.",
+      "medicine": "Cholecalciferol (Vitamin D3), Ergocalciferol (Vitamin D2)"
+    },
+    {
+      "name": "Insulinoma",
+      "symptoms": "Low blood sugar (hypoglycemia), dizziness, confusion, sweating, weakness.",
+      "treatment": "Surgical removal of tumor, medications to manage blood sugar.",
+      "medicine": "Diazoxide, Octreotide"
+    },
+    {
+      "name": "Glucagonoma",
+      "symptoms": "High blood sugar (hyperglycemia), weight loss, skin rash (necrolytic migratory erythema), diarrhea.",
+      "treatment": "Surgical removal of tumor, medications to control symptoms.",
+      "medicine": "Somatostatin analogs (Octreotide, Lanreotide), Chemotherapy if malignant"
+    },
+    {
+      "name": "Pancreatic Neuroendocrine Tumors (PNETs)",
+      "symptoms": "Varies by hormone affected (e.g., excess insulin, glucagon, gastrin, or somatostatin production).",
+      "treatment": "Surgery, targeted therapy, chemotherapy, hormone therapy.",
+      "medicine": "Everolimus, Sunitinib, Somatostatin analogs"
+    }
+  ,
+    {
+      "name": "Congenital Hyperinsulinism",
+      "symptoms": "Severe hypoglycemia, irritability, seizures, poor feeding in infants.",
+      "treatment": "Dietary management, medications, surgery in severe cases.",
+      "medicine": "Diazoxide, Octreotide"
+    }
+  ]
+}
